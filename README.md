@@ -10,10 +10,17 @@ coverage-aware decoder then selects locations using a Greedy reference PMU
 budget. The project provides IEEE test-system graphs, saved results, available
 checkpoints, and commands for inspection and new experiments.
 
-For more info you can check the article on my website: https://mojsadafi.ir/2026/08/17/optimal-pmu-placement-research-vs-grid-reality/
-Or you can also check our previous related paper on similar topic: doi.org/10.1109/EPDC67173.2025.11278270
+- For more info you can check the article on my website: https://mojsadafi.ir/2026/08/17/optimal-pmu-placement-research-vs-grid-reality/
 
+- Or you can also check our previous related paper on similar topic: https://doi.org/10.1109/EPDC67173.2025.11278270
 
+<p align="center">
+  <a href="https://mojsadafi.ir/2026/08/17/optimal-pmu-placement-research-vs-grid-reality/">
+    <img src="https://mojsadafi.ir/wp-content/uploads/2026/08/optimal-pmu-placement-smart-grid.jpg"
+         alt="PMU placement schematic"
+         width="500" />
+  </a>
+</p>
 
 ## What is implemented
 
