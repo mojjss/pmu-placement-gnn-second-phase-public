@@ -1,0 +1,38 @@
+{
+  "method": {
+    "protocol": "NEW proposed input-grouped 60/20/20 fault split",
+    "seed": 42,
+    "epochs": 150,
+    "batch_size": 1,
+    "hidden_channels": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "coverage_weight": 0.3,
+    "diversity_weight": 0.2,
+    "rate_weight": 0.05,
+    "feature_scaling": false,
+    "device": "cpu",
+    "checkpoint": "strictly improving validation node accuracy; first maximum",
+    "reference_K": "stored Greedy label count",
+    "initializations_per_system": 1,
+    "assignment": "sorted input hashes shuffled with random.Random(42); nearest 20% prefix to validation, then test; reserve groups for later sets; remainder train"
+  },
+  "systems": [
+    "14",
+    "57",
+    "118",
+    "300"
+  ],
+  "datasets": {
+    "14": "data/IEEE14/index.csv",
+    "57": "data/IEEE57/index.csv",
+    "118": "data/IEEE118/index.csv",
+    "300": "data/IEEE300/index.csv"
+  },
+  "training_threads": 4,
+  "training_interop_threads": 4,
+  "runtime_threads": 1,
+  "runtime_interop_threads": 1,
+  "runtime_warmup": 1,
+  "runtime_repetitions": 3
+}

@@ -1,0 +1,9 @@
+# Preserve saved artifacts byte-for-byte.
+data/** -text
+models/** -text
+results/paper/** -text
+examples/data/** -text
+*.npz -text
+*.pt -text
+*.emf -text
+*.pdf -text

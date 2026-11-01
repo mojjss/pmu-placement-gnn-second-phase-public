@@ -1,0 +1,230 @@
+{
+  "system": "14",
+  "configuration": {
+    "protocol": "NEW proposed input-grouped 60/20/20 fault split",
+    "seed": 42,
+    "epochs": 150,
+    "batch_size": 1,
+    "hidden_channels": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "coverage_weight": 0.3,
+    "diversity_weight": 0.2,
+    "rate_weight": 0.05,
+    "feature_scaling": false,
+    "device": "cpu",
+    "checkpoint": "strictly improving validation node accuracy; first maximum",
+    "reference_K": "stored Greedy label count",
+    "initializations_per_system": 1,
+    "assignment": "sorted input hashes shuffled with random.Random(42); nearest 20% prefix to validation, then test; reserve groups for later sets; remainder train"
+  },
+  "partitions": {
+    "validation": [
+      3,
+      6,
+      12,
+      14
+    ],
+    "test": [
+      2,
+      10,
+      15,
+      18
+    ],
+    "train": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      13,
+      16,
+      17,
+      19,
+      20
+    ]
+  },
+  "counts": {
+    "validation": {
+      "total": 4,
+      "faulted": 4,
+      "groups": 4
+    },
+    "test": {
+      "total": 4,
+      "faulted": 4,
+      "groups": 4
+    },
+    "train": {
+      "total": 13,
+      "faulted": 12,
+      "groups": 13
+    }
+  },
+  "training_label_counts": [
+    119,
+    63
+  ],
+  "class_weights": [
+    1.0,
+    1.8888888888888888
+  ],
+  "class_weight_indices": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    13,
+    16,
+    17,
+    19,
+    20
+  ],
+  "input_group_count": 21,
+  "validation": "PASS: complete, nonempty, disjoint input groups, intact group in training",
+  "dataset": {
+    "directory": "data/IEEE14",
+    "origin_run": "RUN_20260105_012803_greedy_n1_14",
+    "index_sha256": "7eb5c1cc902b2dc3ffffcaf0956d88e5ee4315a81490ad497d8e7ac40825934e",
+    "inventory_sha256": "143106c50fd6ef525783dbbde87c5dcde79143cc66b107a52e7ccde7bc411321",
+    "inventory_definition": "SHA256 of canonical JSON containing index hash and ordered sample_id/file/SHA256 records; includes intact and faulted samples",
+    "sample_sha256": {
+      "samples/intact.npz": "47cc4264099fff042ccda9aefd88cb4aecec6d368dacaa9ce64b6a5304fbad95",
+      "samples/line_0_0.npz": "7521e911dea9e304097961584ad0ac182af58e3c4cd8f6ab17c1c381b5264c60",
+      "samples/line_1_1.npz": "03cfcc939c440b6337368ee2f8ea6c97f7a5a98333bb0214c81177a1857e6464",
+      "samples/line_2_2.npz": "0c117053dc6e1d58388721a072a8c52775d59defe70dbb6207b4a004d43b5c76",
+      "samples/line_3_3.npz": "d55874ab2c29c78e3918d00cdc24083d2d3d62b64d9510e536d726d3f5ad4ed6",
+      "samples/line_4_4.npz": "d36312444c1257f9f57ea0ea008e8ef94fc0700a3862f271b592cc633cd32bfc",
+      "samples/line_5_5.npz": "b177e3a8aaaf16ff1ce4833b55c9b4e8790082b181ecfc155e5e1c0008cda80f",
+      "samples/line_6_6.npz": "8046c420b656c9835d61e90b596526fbfc70132a6767d86c851828e54294a106",
+      "samples/line_7_7.npz": "05fb79443ef9b1e3e936f6be643ac8f14583049fa5485945e7c8d8b4a163f20c",
+      "samples/line_8_8.npz": "8198c9e13bad761763d24fb89704e4fd2978696e438a5d7dfefa3f130d6ce657",
+      "samples/line_9_9.npz": "2bad1796d5643f7e1f43f9121e2588679b878e9f69454fdfac88a8a2c9a1e91f",
+      "samples/line_10_10.npz": "9e804f0b1c890736b348abc58d8c3479abc00b2aa76e6e02b411e4efd8a32fad",
+      "samples/line_11_11.npz": "a8730e4eb32ff584bd24800f6910b41713faffa4801295b0732807b8296d84f3",
+      "samples/line_12_12.npz": "8e99074a1818fc8bc65a7f4f890135e3ca8b5907593f4dcd4e0eba47506eb0f6",
+      "samples/line_13_13.npz": "328b418b6c88ffbd79950e3ae60741e55283e94df3e73b35e4b0e337df336c8f",
+      "samples/line_14_14.npz": "d91daf91f0fb3e8de4262ff86e513517605e0373e775dbbca40aebe94749dd55",
+      "samples/trafo_0_15.npz": "18df7364bf092d777cebd80e969f2f727dd5a164f6d42f7be0e0cfa339378fbb",
+      "samples/trafo_1_16.npz": "a430b39e863919b72001007ae4e92ad176b75ade529e0fd0a7b89795b3418eda",
+      "samples/trafo_2_17.npz": "41e0a3f0f79b0c35475cd769c7f189f64e92d919d5ae973e7503c2563158201b",
+      "samples/trafo_3_18.npz": "f8be0b961573e2f83e74fc429eaa7b9ab5e2609123f34c33a702492f21f4f28d",
+      "samples/trafo_4_19.npz": "462df0b581e197275d730b693b94f0e128ece6f818aa7d18b149cf9263f67db2"
+    },
+    "sample_inventory": [
+      {
+        "sample_id": "intact",
+        "file": "samples/intact.npz",
+        "sha256": "47cc4264099fff042ccda9aefd88cb4aecec6d368dacaa9ce64b6a5304fbad95"
+      },
+      {
+        "sample_id": "line_0_0",
+        "file": "samples/line_0_0.npz",
+        "sha256": "7521e911dea9e304097961584ad0ac182af58e3c4cd8f6ab17c1c381b5264c60"
+      },
+      {
+        "sample_id": "line_1_1",
+        "file": "samples/line_1_1.npz",
+        "sha256": "03cfcc939c440b6337368ee2f8ea6c97f7a5a98333bb0214c81177a1857e6464"
+      },
+      {
+        "sample_id": "line_2_2",
+        "file": "samples/line_2_2.npz",
+        "sha256": "0c117053dc6e1d58388721a072a8c52775d59defe70dbb6207b4a004d43b5c76"
+      },
+      {
+        "sample_id": "line_3_3",
+        "file": "samples/line_3_3.npz",
+        "sha256": "d55874ab2c29c78e3918d00cdc24083d2d3d62b64d9510e536d726d3f5ad4ed6"
+      },
+      {
+        "sample_id": "line_4_4",
+        "file": "samples/line_4_4.npz",
+        "sha256": "d36312444c1257f9f57ea0ea008e8ef94fc0700a3862f271b592cc633cd32bfc"
+      },
+      {
+        "sample_id": "line_5_5",
+        "file": "samples/line_5_5.npz",
+        "sha256": "b177e3a8aaaf16ff1ce4833b55c9b4e8790082b181ecfc155e5e1c0008cda80f"
+      },
+      {
+        "sample_id": "line_6_6",
+        "file": "samples/line_6_6.npz",
+        "sha256": "8046c420b656c9835d61e90b596526fbfc70132a6767d86c851828e54294a106"
+      },
+      {
+        "sample_id": "line_7_7",
+        "file": "samples/line_7_7.npz",
+        "sha256": "05fb79443ef9b1e3e936f6be643ac8f14583049fa5485945e7c8d8b4a163f20c"
+      },
+      {
+        "sample_id": "line_8_8",
+        "file": "samples/line_8_8.npz",
+        "sha256": "8198c9e13bad761763d24fb89704e4fd2978696e438a5d7dfefa3f130d6ce657"
+      },
+      {
+        "sample_id": "line_9_9",
+        "file": "samples/line_9_9.npz",
+        "sha256": "2bad1796d5643f7e1f43f9121e2588679b878e9f69454fdfac88a8a2c9a1e91f"
+      },
+      {
+        "sample_id": "line_10_10",
+        "file": "samples/line_10_10.npz",
+        "sha256": "9e804f0b1c890736b348abc58d8c3479abc00b2aa76e6e02b411e4efd8a32fad"
+      },
+      {
+        "sample_id": "line_11_11",
+        "file": "samples/line_11_11.npz",
+        "sha256": "a8730e4eb32ff584bd24800f6910b41713faffa4801295b0732807b8296d84f3"
+      },
+      {
+        "sample_id": "line_12_12",
+        "file": "samples/line_12_12.npz",
+        "sha256": "8e99074a1818fc8bc65a7f4f890135e3ca8b5907593f4dcd4e0eba47506eb0f6"
+      },
+      {
+        "sample_id": "line_13_13",
+        "file": "samples/line_13_13.npz",
+        "sha256": "328b418b6c88ffbd79950e3ae60741e55283e94df3e73b35e4b0e337df336c8f"
+      },
+      {
+        "sample_id": "line_14_14",
+        "file": "samples/line_14_14.npz",
+        "sha256": "d91daf91f0fb3e8de4262ff86e513517605e0373e775dbbca40aebe94749dd55"
+      },
+      {
+        "sample_id": "trafo_0_15",
+        "file": "samples/trafo_0_15.npz",
+        "sha256": "18df7364bf092d777cebd80e969f2f727dd5a164f6d42f7be0e0cfa339378fbb"
+      },
+      {
+        "sample_id": "trafo_1_16",
+        "file": "samples/trafo_1_16.npz",
+        "sha256": "a430b39e863919b72001007ae4e92ad176b75ade529e0fd0a7b89795b3418eda"
+      },
+      {
+        "sample_id": "trafo_2_17",
+        "file": "samples/trafo_2_17.npz",
+        "sha256": "41e0a3f0f79b0c35475cd769c7f189f64e92d919d5ae973e7503c2563158201b"
+      },
+      {
+        "sample_id": "trafo_3_18",
+        "file": "samples/trafo_3_18.npz",
+        "sha256": "f8be0b961573e2f83e74fc429eaa7b9ab5e2609123f34c33a702492f21f4f28d"
+      },
+      {
+        "sample_id": "trafo_4_19",
+        "file": "samples/trafo_4_19.npz",
+        "sha256": "462df0b581e197275d730b693b94f0e128ece6f818aa7d18b149cf9263f67db2"
+      }
+    ]
+  },
+  "source_sha256": "23b02dbf715c58ae08d2679ccd0ee8f9f1562882bac8da8cff265e61fe964fe6"
+}

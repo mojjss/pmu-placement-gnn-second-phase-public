@@ -1,0 +1,26 @@
+[
+  {
+    "method": "Frozen IEEE57 -> IEEE118",
+    "scenarios": 37,
+    "mean_coverage_pct": 94.11360513055429,
+    "full_count": 0,
+    "full_frequency": 0.0,
+    "mean_K": 36.16216216216216
+  },
+  {
+    "method": "Existing IEEE118 -> IEEE118",
+    "scenarios": 37,
+    "mean_coverage_pct": 99.83967017865322,
+    "full_count": 30,
+    "full_frequency": 0.8108108108108109,
+    "mean_K": 36.16216216216216
+  },
+  {
+    "method": "Stored Greedy reference",
+    "scenarios": 37,
+    "mean_coverage_pct": 100.0,
+    "full_count": 37,
+    "full_frequency": 1.0,
+    "mean_K": 36.16216216216216
+  }
+]

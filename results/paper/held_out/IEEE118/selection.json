@@ -1,0 +1,6 @@
+{
+  "epochs_finished": 150,
+  "selected_epoch": 134,
+  "validation_node_accuracy": 0.8350893266147503,
+  "checkpoint_sha256": "f85759d83489aae7fe5f3011c049de40f6bdb1652aece3590d23e3b57d0d4638"
+}

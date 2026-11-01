@@ -1,0 +1,4 @@
+method,scenarios,mean_coverage_pct,full_count,full_frequency,mean_K
+Frozen IEEE57 -> IEEE118,37,94.11360513055429,0,0.0,36.16216216216216
+Existing IEEE118 -> IEEE118,37,99.83967017865322,30,0.8108108108108109,36.16216216216216
+Stored Greedy reference,37,100.0,37,1.0,36.16216216216216

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmu-placement-gnn-paper"
+version = "0.3.0"
+description = "Greedy-supervised PMU placement: research workflow and saved paper results"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Mojtaba Sadafi"}]
+dependencies = []
+
+[project.optional-dependencies]
+graph = ["numpy==2.3.4", "networkx==3.5", "pandapower==3.2.1"]
+ml = ["numpy==2.3.4", "networkx==3.5", "torch==2.9.0", "torch-geometric==2.7.0"]
+plots = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+pmu-gnn = "pmu_placement_gnn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

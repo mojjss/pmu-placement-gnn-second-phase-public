@@ -1,0 +1,554 @@
+{
+  "14": {
+    "saved_input_placement": {
+      "original_Greedy": {
+        "mean": 0.16344833333333336,
+        "median": 0.1417,
+        "p95": 0.2586899999999999,
+        "p99": 0.3758789999999994,
+        "SD": 0.057099079786187265,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_Greedy": {
+        "mean": 0.11308666666666664,
+        "median": 0.101,
+        "p95": 0.17450499999999997,
+        "p99": 0.22331299999999976,
+        "SD": 0.030559402928470848,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "original_supplied_K": {
+        "mean": 1.08892,
+        "median": 1.01985,
+        "p95": 1.465635,
+        "p99": 1.6665479999999997,
+        "SD": 0.1659377806614499,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_supplied_K": {
+        "mean": 0.7569033333333333,
+        "median": 0.7078500000000001,
+        "p95": 1.0309399999999993,
+        "p99": 1.3652229999999999,
+        "SD": 0.15748175785308335,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "original_acquired_K": {
+        "mean": 1.231485,
+        "median": 1.16955,
+        "p95": 1.5820499999999997,
+        "p99": 1.735094,
+        "SD": 0.16340809351260338,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_acquired_K": {
+        "mean": 0.8340699999999999,
+        "median": 0.7679,
+        "p95": 1.2046849999999998,
+        "p99": 1.4388109999999998,
+        "SD": 0.16887670188832432,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      }
+    },
+    "online_preparation_inclusive": {
+      "original_Greedy": {
+        "mean": 1.6256716666666666,
+        "median": 1.52945,
+        "p95": 2.3249099999999996,
+        "p99": 2.7890439999999987,
+        "SD": 0.2931953181879694,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_Greedy": {
+        "mean": 1.6591349999999998,
+        "median": 1.5720999999999998,
+        "p95": 2.0548349999999997,
+        "p99": 2.328888999999998,
+        "SD": 0.21504975366376838,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "original_supplied_K": {
+        "mean": 3.1671,
+        "median": 3.07855,
+        "p95": 3.836465,
+        "p99": 4.366330999999999,
+        "SD": 0.3688240543278698,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_supplied_K": {
+        "mean": 2.7902616666666664,
+        "median": 2.6364,
+        "p95": 3.77132,
+        "p99": 3.851947,
+        "SD": 0.3698805483275289,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "original_acquired_K": {
+        "mean": 3.2568449999999998,
+        "median": 3.0984499999999997,
+        "p95": 3.9825299999999997,
+        "p99": 4.227960999999999,
+        "SD": 0.3584798816778936,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      },
+      "optimized_acquired_K": {
+        "mean": 2.8422883333333333,
+        "median": 2.7243,
+        "p95": 3.7363350000000004,
+        "p99": 3.8126089999999997,
+        "SD": 0.35195374893159703,
+        "scenarios": 20,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 4.95
+      }
+    }
+  },
+  "57": {
+    "saved_input_placement": {
+      "original_Greedy": {
+        "mean": 0.9213462499999999,
+        "median": 0.8604,
+        "p95": 1.3515299999999997,
+        "p99": 1.6368929999999988,
+        "SD": 0.188830034672048,
+        "scenarios": 80,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_Greedy": {
+        "mean": 0.2849345833333333,
+        "median": 0.24985000000000002,
+        "p95": 0.4795799999999999,
+        "p99": 0.7282399999999997,
+        "SD": 0.09321569136674616,
+        "scenarios": 80,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 18.2
+      },
+      "original_supplied_K": {
+        "mean": 2.7138262499999994,
+        "median": 2.586,
+        "p95": 3.4252249999999997,
+        "p99": 4.136669999999995,
+        "SD": 0.41522843450647584,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_supplied_K": {
+        "mean": 2.02474125,
+        "median": 1.9370500000000002,
+        "p95": 2.6438149999999996,
+        "p99": 2.8602619999999996,
+        "SD": 0.2695821341188764,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "original_acquired_K": {
+        "mean": 3.63863625,
+        "median": 3.4758500000000003,
+        "p95": 4.477015,
+        "p99": 5.392616999999999,
+        "SD": 0.4469164886683185,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_acquired_K": {
+        "mean": 2.2030975,
+        "median": 2.082,
+        "p95": 2.8660249999999996,
+        "p99": 3.3732069999999976,
+        "SD": 0.3244889286975448,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      }
+    },
+    "online_preparation_inclusive": {
+      "original_Greedy": {
+        "mean": 5.850012500000001,
+        "median": 5.683949999999999,
+        "p95": 6.808215000000001,
+        "p99": 8.088598999999993,
+        "SD": 0.6444840922125719,
+        "scenarios": 80,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_Greedy": {
+        "mean": 5.545334166666667,
+        "median": 5.38795,
+        "p95": 6.625905,
+        "p99": 8.063915999999995,
+        "SD": 0.5884036816264867,
+        "scenarios": 80,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 18.2
+      },
+      "original_supplied_K": {
+        "mean": 8.507667083333333,
+        "median": 8.3538,
+        "p95": 9.590204999999994,
+        "p99": 11.537535999999987,
+        "SD": 0.7910156003781889,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_supplied_K": {
+        "mean": 7.777837083333333,
+        "median": 7.6576,
+        "p95": 8.850849999999998,
+        "p99": 9.919898999999992,
+        "SD": 0.5827851628387001,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "original_acquired_K": {
+        "mean": 9.488940833333334,
+        "median": 9.31775,
+        "p95": 10.655204999999999,
+        "p99": 12.125450999999993,
+        "SD": 0.8143499606491944,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      },
+      "optimized_acquired_K": {
+        "mean": 8.02684625,
+        "median": 7.90925,
+        "p95": 9.17353,
+        "p99": 9.942562999999998,
+        "SD": 0.6058587581947431,
+        "scenarios": 80,
+        "mean_coverage": 0.9989035087719298,
+        "full_coverage_frequency": 0.95,
+        "mean_PMU_count": 18.2
+      }
+    }
+  },
+  "118": {
+    "saved_input_placement": {
+      "original_Greedy": {
+        "mean": 3.3022586021505376,
+        "median": 3.1165000000000003,
+        "p95": 4.296505,
+        "p99": 5.1243619999999925,
+        "SD": 0.5111905557241813,
+        "scenarios": 186,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_Greedy": {
+        "mean": 0.6322537634408602,
+        "median": 0.5916,
+        "p95": 0.8749199999999998,
+        "p99": 1.3848619999999963,
+        "SD": 0.1566730653950495,
+        "scenarios": 186,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "original_supplied_K": {
+        "mean": 6.369700716845879,
+        "median": 6.24435,
+        "p95": 7.201639999999999,
+        "p99": 8.078379999999994,
+        "SD": 0.5082305199413395,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_supplied_K": {
+        "mean": 4.859514157706093,
+        "median": 4.7650500000000005,
+        "p95": 5.6117349999999995,
+        "p99": 6.054556999999994,
+        "SD": 0.38177739704486446,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "original_acquired_K": {
+        "mean": 9.649273476702508,
+        "median": 9.4881,
+        "p95": 10.79087,
+        "p99": 12.601253999999996,
+        "SD": 0.7017998734562603,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_acquired_K": {
+        "mean": 5.246100716845878,
+        "median": 5.14115,
+        "p95": 6.014459999999999,
+        "p99": 6.751631999999989,
+        "SD": 0.4274284176837689,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      }
+    },
+    "online_preparation_inclusive": {
+      "original_Greedy": {
+        "mean": 14.0924811827957,
+        "median": 13.92325,
+        "p95": 15.364975,
+        "p99": 16.674058999999982,
+        "SD": 0.9299615085878403,
+        "scenarios": 186,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_Greedy": {
+        "mean": 12.132596774193548,
+        "median": 11.89895,
+        "p95": 13.614909999999998,
+        "p99": 15.706525999999997,
+        "SD": 0.9276385824976391,
+        "scenarios": 186,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "original_supplied_K": {
+        "mean": 18.718624372759855,
+        "median": 18.382150000000003,
+        "p95": 20.757655,
+        "p99": 24.778049999999993,
+        "SD": 1.3399990751815791,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_supplied_K": {
+        "mean": 17.132836917562724,
+        "median": 16.857950000000002,
+        "p95": 18.92597,
+        "p99": 20.987303999999984,
+        "SD": 0.9582059798308813,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "original_acquired_K": {
+        "mean": 22.0645894265233,
+        "median": 21.7179,
+        "p95": 24.22461,
+        "p99": 27.50864099999994,
+        "SD": 1.4988362582198322,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      },
+      "optimized_acquired_K": {
+        "mean": 17.834381003584234,
+        "median": 17.3048,
+        "p95": 19.56896,
+        "p99": 22.633049999999958,
+        "SD": 5.761208312289342,
+        "scenarios": 186,
+        "mean_coverage": 0.9983141971933661,
+        "full_coverage_frequency": 0.8333333333333334,
+        "mean_PMU_count": 36.19892473118279
+      }
+    }
+  },
+  "300": {
+    "saved_input_placement": {
+      "original_Greedy": {
+        "mean": 21.353060340632606,
+        "median": 20.0031,
+        "p95": 27.177159999999997,
+        "p99": 33.53143200000001,
+        "SD": 6.004670586640628,
+        "scenarios": 411,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_Greedy": {
+        "mean": 2.4406745336577456,
+        "median": 2.1638,
+        "p95": 3.6801599999999977,
+        "p99": 5.099672000000001,
+        "SD": 0.6641352731234678,
+        "scenarios": 411,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "original_supplied_K": {
+        "mean": 24.97525896188159,
+        "median": 23.7801,
+        "p95": 30.895899999999997,
+        "p99": 35.477988000000046,
+        "SD": 3.062944868741131,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_supplied_K": {
+        "mean": 10.877397323600974,
+        "median": 10.377,
+        "p95": 13.399319999999998,
+        "p99": 15.600896000000002,
+        "SD": 1.3464401450813408,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "original_acquired_K": {
+        "mean": 46.221638361719386,
+        "median": 43.9947,
+        "p95": 57.79893999999996,
+        "p99": 64.98240400000002,
+        "SD": 5.812531094843198,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_acquired_K": {
+        "mean": 12.775905515004055,
+        "median": 12.1143,
+        "p95": 15.96772,
+        "p99": 18.449516000000017,
+        "SD": 1.6181226887796814,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      }
+    },
+    "online_preparation_inclusive": {
+      "original_Greedy": {
+        "mean": 46.50359699918897,
+        "median": 43.8321,
+        "p95": 58.76147999999999,
+        "p99": 69.27378800000002,
+        "SD": 6.578278052973997,
+        "scenarios": 411,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_Greedy": {
+        "mean": 29.564236253041358,
+        "median": 27.7398,
+        "p95": 37.32675999999999,
+        "p99": 43.68155600000001,
+        "SD": 6.552266382868556,
+        "scenarios": 411,
+        "mean_coverage": 1.0,
+        "full_coverage_frequency": 1.0,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "original_supplied_K": {
+        "mean": 53.081457826439575,
+        "median": 50.3756,
+        "p95": 65.82297999999999,
+        "p99": 75.68960800000008,
+        "SD": 6.447823949880941,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_supplied_K": {
+        "mean": 38.976012246553125,
+        "median": 37.0522,
+        "p95": 48.80041999999998,
+        "p99": 56.87395200000005,
+        "SD": 4.898051297503416,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "original_acquired_K": {
+        "mean": 74.3481103000811,
+        "median": 70.4865,
+        "p95": 93.45647999999997,
+        "p99": 103.32683600000003,
+        "SD": 9.153607785116714,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      },
+      "optimized_acquired_K": {
+        "mean": 41.220058475263585,
+        "median": 38.9313,
+        "p95": 51.61463999999998,
+        "p99": 59.956256000000046,
+        "SD": 7.9326247091783655,
+        "scenarios": 411,
+        "mean_coverage": 0.9998134630981346,
+        "full_coverage_frequency": 0.9440389294403893,
+        "mean_PMU_count": 96.12408759124088
+      }
+    }
+  }
+}

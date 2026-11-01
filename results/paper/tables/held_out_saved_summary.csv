@@ -1,0 +1,5 @@
+system,train,validation,test,train_faults,training_validation_loop_seconds,selected_epoch,best_validation_accuracy,gnn_mean_test_coverage_pct,greedy_reference_mean_test_coverage_pct,gnn_full_count,gnn_full_pct,greedy_full_count,greedy_full_pct,mean_reference_K
+IEEE14,13,4,4,12,19.7882361,130,0.910714286,100,100,4,100,4,100,5.25
+IEEE57,49,16,16,48,207.6876004,129,0.776315789,99.89035088,100,15,93.75,16,100,18.375
+IEEE118,113,37,37,112,603.7089219,134,0.835089327,99.83967018,100,30,81.08108108,37,100,36.16216216
+IEEE300,248,82,82,247,2343.019968,150,0.836585366,99.65447154,100,78,95.12,82,100,96.09756098

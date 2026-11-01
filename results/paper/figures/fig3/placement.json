@@ -1,0 +1,266 @@
+{
+  "evidence": "NEW-RUN single forward pass on the original authenticated scenario",
+  "scenario_id": "trafo_1_16",
+  "dataset_index": 17,
+  "outage_metadata": {
+    "sample_id": "trafo_1_16",
+    "file": "samples\\trafo_1_16.npz",
+    "scenario_type": "faulted",
+    "kind": "trafo",
+    "idx": "1",
+    "failed_u": "3",
+    "failed_v": "8",
+    "coverage_fixed_%": "100.0",
+    "coverage_reopt_%": "100.0",
+    "delta_pmus": "-1.0",
+    "components": "1"
+  },
+  "checkpoint": "results\\gnn_models\\IEEE14\\pmu_gnn_n1_20260509_112314.pth",
+  "input_code_hashes": {
+    "camera-ready-review\\20261008-032252\\IEEE14-code.py": "23b02dbf715c58ae08d2679ccd0ee8f9f1562882bac8da8cff265e61fe964fe6",
+    "notebooks\\GNN-1.7-IEEE14.ipynb": "c145a036c27b20b83b08bdc8b79a4f9ae17bd2919db75681ca876aefeb984cc9",
+    "results\\gnn_models\\IEEE14\\pmu_gnn_n1_20260509_112314.pth": "22256f0bc1e801f78c0851fb3543c45ead697dccd8ded0ef54a3995c606cc2d6",
+    "results\\figures_gnn\\IEEE14\\GNN_20260509_112310\\20260509_112356_gnn_gnn_pmus_faulted_topK_IEEE14.svg": "d82fb7367dbd69d7e33ffc24a50c92fc43456239796d1d562926f6505eb23bdd",
+    "results\\gnn_dataset\\RUN_20260105_012803_greedy_n1_14\\IEEE14\\samples\\trafo_1_16.npz": "a430b39e863919b72001007ae4e92ad176b75ade529e0fd0a7b89795b3418eda",
+    "results\\gnn_dataset\\RUN_20260105_012803_greedy_n1_14\\IEEE14\\index.csv": "7eb5c1cc902b2dc3ffffcaf0956d88e5ee4315a81490ad497d8e7ac40825934e"
+  },
+  "bus_mapping": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "stored_oriented_edges": [
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      5,
+      6,
+      6,
+      8,
+      8,
+      9,
+      11,
+      12
+    ],
+    [
+      1,
+      4,
+      2,
+      3,
+      4,
+      3,
+      4,
+      6,
+      5,
+      10,
+      11,
+      12,
+      7,
+      8,
+      9,
+      13,
+      10,
+      12,
+      13
+    ]
+  ],
+  "reference_K": 4,
+  "M": 14,
+  "greedy": {
+    "model_indices": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "physical_buses": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "observed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "unobserved_indices": [],
+    "observed_count": 14,
+    "total": 14,
+    "coverage": 1.0,
+    "full_coverage": true
+  },
+  "gnn": {
+    "model_indices": [
+      5,
+      6,
+      1,
+      8
+    ],
+    "physical_buses": [
+      5,
+      6,
+      1,
+      8
+    ],
+    "probabilities": [
+      0.5126405358314514,
+      0.3933368921279907,
+      0.48749348521232605,
+      0.4799882769584656,
+      0.3714825510978699,
+      0.9171327352523804,
+      0.8999752402305603,
+      0.15913116931915283,
+      0.17043405771255493,
+      0.03198670223355293,
+      0.06078159809112549,
+      0.07675091177225113,
+      0.02622554637491703,
+      0.007722555194050074
+    ],
+    "observed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "unobserved_indices": [],
+    "observed_count": 14,
+    "total": 14,
+    "coverage": 1.0,
+    "full_coverage": true
+  },
+  "raw_topk_original": {
+    "model_indices": [
+      5,
+      6,
+      0,
+      2
+    ],
+    "observed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "unobserved_indices": [
+      9,
+      13
+    ],
+    "observed_count": 12,
+    "total": 14,
+    "coverage": 0.8571428571428571,
+    "full_coverage": false
+  },
+  "coordinates_svg_points": [
+    [
+      409.216302,
+      233.017498
+    ],
+    [
+      343.922554,
+      173.789926
+    ],
+    [
+      304.011291,
+      75.587665
+    ],
+    [
+      268.46039,
+      189.63122
+    ],
+    [
+      332.340562,
+      286.91404
+    ],
+    [
+      315.409559,
+      417.227709
+    ],
+    [
+      180.930734,
+      217.302353
+    ],
+    [
+      116.728698,
+      133.61304
+    ],
+    [
+      152.395101,
+      344.860396
+    ],
+    [
+      135.21892,
+      460.912783
+    ],
+    [
+      228.744666,
+      498.240367
+    ],
+    [
+      365.314371,
+      514.269891
+    ],
+    [
+      291.865599,
+      514.827335
+    ],
+    [
+      204.610804,
+      450.221725
+    ]
+  ],
+  "training": false,
+  "repair": false,
+  "forward_pass_count": 1
+}

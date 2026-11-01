@@ -1,0 +1,9 @@
+# Evidence-backed recorded versions, not a complete historical lock.
+# Recorded corrected training used Python 3.11.4.
+# Select the CPU wheel with the official CPU index as documented.
+numpy==2.3.4
+networkx==3.5
+torch==2.9.0+cpu
+torch-geometric==2.7.0
+pandapower==3.2.1
+# Original generator and plotting environments are not completely recorded.
